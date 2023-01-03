@@ -36,7 +36,7 @@ const Navbar = ({totalItems}) => {
                 <MenuItem className={classes.button} >USD
 <KeyboardArrowDownIcon/>
 </MenuItem>
-<MenuItem className={classes.button} >
+<MenuItem  className={classes.button} >
 PC's
 </MenuItem>
 <MenuItem className={classes.button} >

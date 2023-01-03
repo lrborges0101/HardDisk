@@ -16,13 +16,15 @@ import FilterProduct from "../FilterProduct/FilterProduct";
  
 
    const Products = ({categories, onAddToCart}) =>{
-    console.log({categories})
+    
 
     const [resultSearch, setSearchResult]= useState([])
 
-    
-
     const classes = UseStyles()
+
+         if (!categories.length) return <Skeleton/>;
+
+   
    
     return(
         <>
@@ -30,7 +32,7 @@ import FilterProduct from "../FilterProduct/FilterProduct";
          <FilterProduct onAddToCart={onAddToCart} categories={categories} resultSearch={resultSearch} setSearchResult={setSearchResult} />
          {!resultSearch.length && (
             <>
-                <Container>
+                <Container  >
 
                     {categories.map((category)=>{
                         return(

@@ -29,7 +29,7 @@ const FilterProduct = () => {
       <Container>
         <Paper component="form" className="root" onSubmit={()=>{}}>
           <SelectCategory
-            /* categories={[defaultCategory, ...categories]} */
+            categories={[defaultCategory, ...categories]} 
             selectCategory={selectCategory}
             onChange={handleSelectChange}
           />
@@ -43,7 +43,7 @@ const FilterProduct = () => {
             <Search />
           </IconButton>
         </Paper>
-        {/* {resultMessage && <p className="result-message">{resultMessage}</p>}
+        {resultMessage && <p className="result-message">{resultMessage}</p>}
         
         {searchResult.length && (
           <div>
@@ -55,7 +55,7 @@ const FilterProduct = () => {
               ))}
             </Grid>
           </div>
-        )} */}
+        )} 
       </Container>
     </div>
   )
