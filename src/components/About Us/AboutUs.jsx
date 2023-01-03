@@ -1,5 +1,6 @@
 import React from 'react'
-import { Typography, Container } from '@material-ui/core'
+
+import { Typography, Container } from '@mui/material'
 
 const AboutUs = () => {
   return (
