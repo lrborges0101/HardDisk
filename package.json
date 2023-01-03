@@ -1,6 +1,6 @@
 {
   "name": "hard-disk",
-  "homepage": "https://lrborges0101.github.io/HardDisk",
+  "homepage": "./",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
