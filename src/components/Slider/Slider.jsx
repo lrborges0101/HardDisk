@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
-import pc from '../../Assets/pc.jpg'
-import vr from '../../Assets/vr.jpg'
-import game from '../../Assets/game.jpg'
+import pc from '../../Assets/pc.png'
+import vr from '../../Assets/vr.png'
+import game from '../../Assets/game.png'
 import './Slider.scss'
 import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft';
 import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
