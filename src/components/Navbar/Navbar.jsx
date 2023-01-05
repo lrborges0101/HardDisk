@@ -30,7 +30,7 @@ const Navbar = ({totalItems}) => {
 
          
               {isMatch ? (<>
-                <Typography component={Link} to="/" style={{textDecoration:'none'}} >Hard Disk1</Typography>
+                <Typography component={Link} to="/" style={{textDecoration:'none'}} >Hard Disk</Typography>
                 <DrawerComp/> </>):(<>
 
                 <MenuItem className={classes.button} >USD
