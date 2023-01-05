@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/HardDisk/static/css/main.4068f9d5.css",
+    "main.js": "/HardDisk/static/js/main.1d9f76c5.js",
+    "static/media/game.png": "/HardDisk/static/media/game.15a8ac412fc4b9a3b85e.png",
+    "static/media/pc.png": "/HardDisk/static/media/pc.05f35fddbe4d46a6085d.png",
+    "static/media/vr.png": "/HardDisk/static/media/vr.461ce71979c9e8e5069b.png",
+    "index.html": "/HardDisk/index.html",
+    "main.4068f9d5.css.map": "/HardDisk/static/css/main.4068f9d5.css.map",
+    "main.1d9f76c5.js.map": "/HardDisk/static/js/main.1d9f76c5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4068f9d5.css",
+    "static/js/main.1d9f76c5.js"
+  ]
+}
